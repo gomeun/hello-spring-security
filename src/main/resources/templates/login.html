@@ -59,5 +59,16 @@
         </div>
     </div>
 </div>
+
+<footer class="text-center text-muted mt-5 mb-3">
+    <hr>
+    <small>
+        학번: 2171004 |
+        성명: 조은선 |
+        실습 수행:
+        <span th:text="${#temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss')}"></span>
+    </small>
+</footer>
+
 </body>
 </html>
